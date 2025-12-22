@@ -31,3 +31,11 @@ A smart command launcher for Termux that:
 git clone https://github.com/sohansohanhassan407/sohan-cli
 cd sohan-cli
 bash install.sh
+
+
+
+##for installimg zsh
+
+```bash
+pkg update -y && pkg upgrade -y
+pkg install zsh -y
