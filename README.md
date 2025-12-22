@@ -33,10 +33,15 @@ cd sohan-cli
 bash install.sh
 ```
 
+---
 
 ##for installimg zsh
 
 ```bash
 pkg update -y && pkg upgrade -y
 pkg install zsh -y
+```
+#for make this permanent 
+```bash
+chsh -s zsh
 ```
