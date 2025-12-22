@@ -28,6 +28,6 @@ A smart command launcher for Termux that:
 ## ⚡ Installation (ONE COMMAND)
 
 ```bash
-git clone https://github.com/YOURNAME/sohan-cli
+git clone https://github.com/sohansohanhassan407/sohan-cli
 cd sohan-cli
 bash install.sh
