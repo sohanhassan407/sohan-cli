@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 set -e
 
 echo "[+] Installing dependencies..."
@@ -13,7 +12,8 @@ echo "[+] Installing sohan.py..."
 cp sohan.py ~/bin/sohan.py
 chmod +x ~/bin/sohan.py
 
-echo "[+] Updating ~/.zshrc..."
+echo "[+] Preparing ~/.zshrc..."
+touch ~/.zshrc   # <<< FIX: create file if not exists
 
 # Backup once
 if [ ! -f ~/.zshrc.bak_sohan ]; then
