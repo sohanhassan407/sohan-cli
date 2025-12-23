@@ -28,7 +28,7 @@ A smart command launcher for Termux that:
 ## ⚡ Installation (ONE COMMAND)
 
 ```bash
-git clone https://github.com/sohansohanhassan407/sohan-cli
+https://github.com/sohanhassan407/sohan-cli.git
 cd sohan-cli
 bash install.sh
 ```
